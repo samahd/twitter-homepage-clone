@@ -1,0 +1,42 @@
+.sidebar-menu{
+    margin-top: 20px;
+    position: fixed;
+}
+.side-bar-menu-item{
+    font-size: 19px;
+    color: #0F141A;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+
+}
+.side-bar-menu-icon{
+    height: 26px;
+    margin-right: 20px;
+    padding: 10px;
+    transition: 0.3s;
+}
+.side-bar-menu-icon:hover{
+    transform: rotate(90deg);
+}
+.side-bar-menu-item:hover{
+    background: rgba(29,161,242,0.1);
+    border-radius: 20px;
+    cursor: pointer;
+    transform: scale(1.2);
+    filter: invert(45%) sepia(74%) saturate(1763%) hue-rotate(161deg) brightness(94%) contrast(103%);
+}
+.twitter-border-radius{
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding: 20px;
+    margin: 10px;
+    height: 50%;
+    width: 80%;
+    font-size: 15px;
+    color: white;
+    background: rgb(0, 153, 255);
+    border-radius: 30px;
+    cursor: pointer;
+}

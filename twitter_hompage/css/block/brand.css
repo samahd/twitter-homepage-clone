@@ -1,0 +1,10 @@
+.brand{
+    position: fixed;
+    height: 28px;
+    filter: invert(45%) sepia(74%) saturate(1763%) hue-rotate(161deg) brightness(94%) contrast(103%);
+    transition: .3s;
+    padding: 10px;
+}
+.brand:hover{
+    transform :scale(1.5);
+}
